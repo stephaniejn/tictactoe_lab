@@ -34,10 +34,12 @@ var checkForWinner = function (){
 			board[winningCombo[i][1]].innerText === board[winningCombo[i][2]].innerText
 		){
 			alert("Congrats Player " + board[winningCombo[i][2]].innerText + "!"); 
-		reset()
+		reset();
+		return;
 			}
 			
 	}
+		checkForTie();
 
 }
 
@@ -58,7 +60,6 @@ function click(){
 		document.getElementById(this.id).innerHTML = nextTurn;
 		checkForWinner();
 		switchTurn();
-		checkForTie();
 	}
 	else{
 		alert("I'm already selected...Try again!");
