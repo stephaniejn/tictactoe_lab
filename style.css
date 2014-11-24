@@ -1,10 +1,16 @@
  
 		.body{
-			background-image: url("background.jpg")
+			background-image: url("background.jpg");
+		}
+		.counters{
+			font-size: 20px;
+			margin-left: 200px;
+			font-family: Lobster;
+			font-size: 30px;
+			text-align: left;
 		}
 		h1{
 			text-align: center;
-			padding-bottom: 3%;
 			padding-top: 3%;
 
 		}
@@ -16,21 +22,19 @@
 		.square {
 			height: 0;
 			padding-bottom: 33%;
-			line-height: 100%;
+			line-height: 120%;
 			vertical-align: middle;
 			text-align: center;
 			color: black;
-			font-size: 150px;
+			font-size: 120px;
 			font-family: Lobster;
   		}
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px){
-.square {
+  		@media screen and (max-width: 1137px)  {
+  		.square {
 			height: 0;
 			padding-bottom: 33%;
-			line-height: 115%;
+			line-height: 120%;
 			vertical-align: middle;
 			text-align: center;
 			color: black;
@@ -38,19 +42,29 @@ and (max-device-width : 568px){
   		}
   	}
 
-@screen 
-and (min-device-width : 569px) 
-and (max-device-width : 714px)  {
-  		.square {
+  		@media screen and (max-width: 760px){
+  			.square {
 			height: 0;
 			padding-bottom: 33%;
-			line-height: 95%;
+			line-height: 115%;
 			vertical-align: middle;
 			text-align: center;
 			color: black;
-			font-size: 60px;
+			font-size: 40px;
   		}
-  	}
+  		}
+
+  		@media screen and (max-width: 400px){
+  			.square {
+			height: 0;
+			padding-bottom: 33%;
+			line-height: 115%;
+			vertical-align: middle;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+  		}
+  		}
 
 		#col1{
 			border: 2px solid black;
