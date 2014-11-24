@@ -1,0 +1,106 @@
+ 
+		.body{
+			background-image: url("background.jpg")
+		}
+		h1{
+			text-align: center;
+			padding-bottom: 3%;
+			padding-top: 3%;
+
+		}
+		.header{
+			font-family: Lobster;
+			font-size: 50px;
+		}
+
+		.square {
+			height: 0;
+			padding-bottom: 33%;
+			line-height: 100%;
+			vertical-align: middle;
+			text-align: center;
+			color: black;
+			font-size: 150px;
+			font-family: Lobster;
+  		}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+.square {
+			height: 0;
+			padding-bottom: 33%;
+			line-height: 115%;
+			vertical-align: middle;
+			text-align: center;
+			color: black;
+			font-size: 80px;
+  		}
+  	}
+
+@screen 
+and (min-device-width : 569px) 
+and (max-device-width : 714px)  {
+  		.square {
+			height: 0;
+			padding-bottom: 33%;
+			line-height: 95%;
+			vertical-align: middle;
+			text-align: center;
+			color: black;
+			font-size: 60px;
+  		}
+  	}
+
+		#col1{
+			border: 2px solid black;
+
+		}
+		#col2{
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col3{
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col4{
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col5{
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col6{
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col7{
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col8{
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col9{
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#reset{
+			margin-top: 2%;
+			background-color: #DEB887;
+		}
