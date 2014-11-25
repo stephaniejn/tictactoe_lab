@@ -1,0 +1,114 @@
+ 
+		.body{
+			background-image: url("background.jpg");
+		}
+		h1{
+			text-align: center;
+			padding-top: 3%;
+			padding-bottom: 3%;
+
+		}
+		.header{
+			font-family: Lobster;
+			font-size: 50px;
+		}
+
+		.square {
+			height: 0;
+			padding-bottom: 33%;
+			line-height: 120%;
+			vertical-align: middle;
+			text-align: center;
+			color: black;
+			font-size: 120px;
+			font-family: Lobster;
+  		}
+
+  		@media screen and (max-width: 1137px)  {
+  		.square {
+			height: 0;
+			padding-bottom: 33%;
+			line-height: 120%;
+			vertical-align: middle;
+			text-align: center;
+			color: black;
+			font-size: 80px;
+  		}
+  	}
+
+  		@media screen and (max-width: 760px){
+  			.square {
+			height: 0;
+			padding-bottom: 33%;
+			line-height: 115%;
+			vertical-align: middle;
+			text-align: center;
+			color: black;
+			font-size: 40px;
+  		}
+  		}
+
+  		@media screen and (max-width: 400px){
+  			.square {
+			height: 0;
+			padding-bottom: 33%;
+			line-height: 115%;
+			vertical-align: middle;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+  		}
+  		}
+
+		#col1{
+			border: 2px solid black;
+
+		}
+		#col2{
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col3{
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col4{
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col5{
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col6{
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col7{
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col8{
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#col9{
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: transparent;
+		}
+		#reset{
+			margin-top: 2%;
+			background-color: #DEB887;
+		}
